@@ -39,4 +39,7 @@ return array(
 	 */
 
 	'hello(/:name)?' => array('welcome/hello', 'name' => 'hello'),
+    'login' => 'admin/auth/login',
+    'admin' => 'admin/dashboard/index',
+    'logout' => 'admin/auth/logout',
 );
